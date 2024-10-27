@@ -1,0 +1,242 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+}
+.footer{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(30, 47, 92, 0.31) 0%, #0A1735 51.87%), url('./assets/FooterImage.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+input{
+  color: #585757;
+  outline-style: none;
+}
+
+@media only screen and (max-width:426px){
+  .mediaTitle{
+    font-size: 16px;
+  }
+}
+
+
+
+/* /* .black-mask{
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  z-index: 2;
+  position: absolute;
+  height: 35vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.573);
+} */
+
+.header{
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heroTitle{
+  color: #fff;
+  text-align: left !important;
+  font-family: Kumbh Sans;
+font-size: 24px;
+font-weight: 400;
+line-height: 90px;
+letter-spacing: 3px;
+}
+
+/* p{
+  color: white;
+  font-size: 3rem;
+  font-weight: 100;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} */
+
+.ImageSection{
+  /* width: 45vw; */
+  display: flex;
+  justify-content: end;
+}
+
+.textSection{
+  width: 40vw;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2.8rem;
+
+  @media screen and (max-width: 1024px) {
+    
+        width: auto;
+    }
+
+    @media screen and (max-width: 600px) { 
+      text-align: center;
+    }
+}
+
+.ImageSection{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.VisionSection{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* background-color: plum; */
+}
+
+
+.founderSection{
+  /* padding: 1rem; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 1rem;
+
+  @media screen and (max-width: 600px) { 
+      text-align: center;
+      flex-wrap: wrap-reverse;
+    }
+}
+
+
+
+.founderSection hr{
+  background-color: black;
+  height: 1px;
+  border: none;
+  width: 70%;
+  @media screen and (max-width: 600px) { 
+      width: 100%;
+    }
+}
+
+.RMCSection {
+  height: auto;
+  display: flex;
+  margin-top: 8rem;
+
+  @media screen and (max-width: 990px) {
+    flex-wrap: wrap;
+  }
+  
+}
+
+.RMCSection img{
+  width: 40%;
+  @media screen and (max-width: 990px) {
+      width: 100%;
+    }
+}
+
+
+.contentCard{
+  color: white;
+  padding: 3rem 4rem;
+  background-color:rgba(0, 45, 87, 1);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 25px;
+
+  @media screen and (max-width: 990px) {
+      padding: 0;
+    }
+  
+    
+  
+}
+
+.listCard{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.formSection{
+  margin-top: 5rem;
+  background-color: #fffcf7;
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.InputSection {
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 1rem 3rem; */
+  gap: 0.5rem;
+  justify-content: center;
+  @media screen and (max-width: 990px) {
+      padding: 0;
+    }
+}
+
+
+
+.ContentSection{
+  display: flex;
+  @media screen and (max-width: 1020px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  @media screen and (max-width: 600px) {
+      padding: 2rem;
+    }
+
+}
+
+.ContentSection .IntoImg{
+  width: 35.25rem;
+
+  @media screen and (max-width: 1020px) {
+      width: 100%;
+    }
+  
+}
+
+.LocationContentSection{
+  display: flex;
+  gap: 4rem;
+  padding: 2rem 8rem;
+  @media screen and (max-width: 1020px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  @media screen and (max-width: 600px) {
+      padding: 2rem;
+    }
+}
+
+.LocationContentSection .LocationMap {
+  width: 45vw;
+
+  @media screen and (max-width: 1020px) {
+      width: 100%;
+    }
+}
+
+.ServiceWhiteDiv {
+  @media screen and (max-width: 600px) {
+      display: none;
+    }
+}

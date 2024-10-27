@@ -1,0 +1,208 @@
+@media only screen and (max-width: 426px) {
+  .home-desc {
+    width: 80%;
+    top: 10%;
+  }
+  .home-hero {
+    height: 650px;
+  }
+  .home-desc h2 {
+    font-family: Kumbh Sans;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+  }
+  .home-desc p {
+    font-family: Kumbh Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+    margin-top: 15px;
+  }
+  .enquire,
+  .whatsapp,
+  .iso {
+    display: none;
+  }
+  .contact-home {
+    flex-wrap: wrap;
+    top: 50%;
+  }
+  .contact-home input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 30px;
+  }
+  .contact-home button {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .section-one {
+    width: 100%;
+    height: 1300px;
+    background: none;
+  }
+  .section-one-right {
+    top: 0;
+    width: 274.28px;
+    height: 347.57px;
+  }
+  .section-one-img {
+    width: 376.37px;
+    height: 265.64px;
+    top: 2%;
+  }
+  .section-one-left {
+    width: 90%;
+    position: absolute;
+    top: 25%;
+  }
+  .section-one-left h1 {
+    font-family: Libre Caslon Display;
+    font-size: 23.33px;
+    font-weight: 400;
+    line-height: 37.54px;
+    text-align: left;
+  }
+  .section-one-left h3 {
+    font-family: Poppins;
+    font-size: 12.17px;
+    font-weight: 400;
+    line-height: 17.25px;
+    letter-spacing: 0.05em;
+    text-align: center;
+  }
+  .section-one-left p {
+    font-family: Glory;
+    font-size: 13.56px;
+    font-weight: 300;
+    line-height: 26.9px;
+    text-align: left;
+  }
+  .section-two {
+    width: 393.04px;
+    height: 427.05px;
+  }
+  .homeTitle{
+    font-family: Kumbh Sans;
+font-size: 22px;
+font-weight: 500;
+line-height: 32.34px;
+text-align: center;
+  }
+  .section-desc > div:first-child{
+    flex-wrap: wrap;
+  }
+  .section-desc > div:first-child h1{
+    width: 95%;
+    font-family: Kumbh Sans;
+font-size: 21px;
+font-weight: 400;
+line-height: 100.01px;
+letter-spacing: 3.000319719314575px;
+text-align: left;
+
+  }
+  .section-desc > div:first-child p{
+    width: 95%;
+    font-family: Gill Sans Nova;
+font-size: 12px;
+font-weight: 400;
+line-height: 19px;
+text-align: left;
+  }
+  .buttonGrp{
+    width: 90%;
+  }
+  .buttonGrp button{
+    font-family: Poppins;
+font-size: 10.09px;
+font-weight: 500;
+line-height: 15.14px;
+text-align: center;
+width: Fixed 96.71px;
+height: 25.82px;
+padding: 7.59px 29.37px 7.59px 29.37px;
+gap: 5.06px;
+border-radius: 4.05px;
+  }
+  .buttonGrp button:last-child{
+    display: none;
+  }
+  .section-three-card{
+    width: 95%;
+  }
+  .section-three-card>div>div>h2{
+    font-family: Gill Sans;
+font-size: 13.19px;
+font-weight: 600;
+line-height: 42.9px;
+letter-spacing: 1.2868708372116089px;
+text-align: left;
+  }
+
+  .section-three-card>div>div>p {
+    font-family: Gill Sans Nova;
+font-size: 9.44px;
+font-weight: 400;
+line-height: 10.72px;
+text-align: left;
+  }
+  .section-three-card>div{
+    width: 100%;
+height: 119.09px;
+  }
+  .section-four{
+    flex-wrap: wrap;
+    height: 1300px;
+  }
+  .section-four-left{
+    width: 100%;
+    height: 273.06px;
+  }
+  .section-four-right{
+    width: 100%;
+    height: 1020.11px;
+    padding: 20px 30px;
+  }
+  .section-four-right h2{
+    font-family: Bambino-Bold;
+font-size: 30.9px;
+font-weight: 400;
+line-height: 46px;
+text-align: left;
+margin-top: 50px;
+  }
+  .section-four-right p{
+    font-family: Jost;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.92px;
+text-align: left;
+
+  }
+  .rmcBene>li{
+    width: 100%;
+    margin-top: 20px;
+    font-family: Jost;
+font-size: 14px;
+font-weight: 400;
+line-height: 20.23px;
+text-align: left;
+
+  }
+  .section-four-right h3{
+    font-family: Jost;
+font-size: 28px;
+font-weight: 600;
+line-height: 33.6px;
+text-align: left;
+margin-top: 30px;
+  }
+  .section-four-right>ul{
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,106 @@
+.navbar{
+    position: relative;
+    width: 100%;
+    /* padding: 20px 0px; */
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-mobile-handle{
+    display: none;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 10px 23px;
+    color:#0A1735;
+}
+.nav-mobile-handle:hover{
+    background-color: #F85200;
+    color: #fff;
+}
+.navbar-left{
+width: 25%;
+}
+.navbar-right{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-right a{
+    color: #838383;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: left;  
+   
+}
+.navbar-right button{
+    width: 220.26px;
+    height: 45px;
+    border: none;
+    background-color: #F85200;
+    color: #fff;
+    border-radius: 169.79px;
+    font-family: Kumbh Sans;
+    font-size: 18.95px;
+    font-weight: 500;
+    line-height: 21.32px;
+    letter-spacing: 0.5921052694320679px;
+    text-align: center;
+}
+.active-nav{
+    /* padding: 5px; */
+    color: #DC3E3D;
+    border-bottom: 2px solid #DC3E3D;
+    transition: 2s ease;
+    /* background: linear-gradient(0deg, rgba(215, 124, 96, 0.475) 20%, rgba(0, 0, 0, 0) 100%); */
+}
+.navbar-mobile{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    background-color: #0A1735;
+    padding: 15px;
+    top: 100%;
+    right: 0;
+    color: #fff;
+    z-index: 5;
+    font-family: Poppins;
+    font-size:20px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: left;
+}
+.navbar-mobile button{
+    padding: 15px;
+    border: none;
+    background-color: #F85200;
+    color: #fff;
+    border-radius: 10px;
+    font-family: Kumbh Sans;
+    font-size: 18.95px;
+    font-weight: 500;
+    line-height: 21.32px;
+    letter-spacing: 0.5921052694320679px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 426px){
+    .navbar-right{
+        display: none;
+    }
+    .nav-mobile-handle{
+        display: inline;
+        margin-right: 25px;
+        font-size: 30px;
+    }
+    .navbar{
+        justify-content: space-between;
+    }
+    .navbar-left{
+        margin-left: 35px;
+    }
+}
