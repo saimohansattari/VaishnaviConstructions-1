@@ -53,7 +53,8 @@ function Home() {
 </div>
 
     <div className='whatsapp'>
-<img src={Whatsapp} alt="" />
+    <a href="https://wa.me/7093320405?text=I am interested in your Projects. I want to know more details."><img src={Whatsapp} alt="" /></a>
+
     </div>
 
       <div className="contact-home">
@@ -130,7 +131,7 @@ function Home() {
 </div>
 
 <div className="section-three">
-<div className='section-three-card'>
+<Link to='/vaishnavi-rmc' className='section-three-card'>
   <div>
 <div>
 <h2>Vaishnavi RMC</h2>
@@ -140,8 +141,8 @@ function Home() {
 <i className='fa-solid fa-arrow-right'></i>
 </div>
     </div>
-  </div>
-  <div className='section-three-card'>
+  </Link>
+  <Link to='/mrk-bricks' className='section-three-card'>
 <div>
 <div>
 <h2>MRK Bricks</h2>
@@ -151,8 +152,8 @@ function Home() {
 <i className='fa-solid fa-arrow-right'></i>
 </div>
     </div>
-  </div>
-  <div className='section-three-card'>
+  </Link>
+  <Link to='/vaishnavi-bricks' className='section-three-card'>
   <div>
   <div>
 <h2>Vaishnavi Bricks</h2>
@@ -162,8 +163,8 @@ function Home() {
 <i className='fa-solid fa-arrow-right'></i>
 </div>
       </div>
-  </div>
-  <div className='section-three-card'>
+  </Link>
+  <Link to='/vaishnavi-crushers' className='section-three-card'>
   <div>
   <div>
 <h2>Vaishnavi Crushers</h2>
@@ -173,7 +174,7 @@ function Home() {
 <i className='fa-solid fa-arrow-right'></i>
 </div>
       </div>
-  </div>
+  </Link>
 </div>
 
 <div className="section-four">
