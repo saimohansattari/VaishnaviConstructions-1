@@ -1,3 +1,5 @@
+
+
 .home-hero {
   position: relative;
   width: 100vw;
@@ -435,6 +437,23 @@ text-align: left;
     width: 100%;
     height: 100%;
 }
+
+.section-five .Img1{
+
+  
+  @media screen and (max-width: 600px) { 
+    display: none;
+  }
+  
+}
+.section-five .Img3{
+
+  
+  @media screen and (max-width: 600px) { 
+    display: none;
+  }
+  
+}
 .section-five>div:first-child{
     /* transform: scaleX(-90deg); */
     left: -10%;
@@ -462,6 +481,11 @@ text-align: left;
 .Testimony img{
     width: 100%;
     height: 100%;
+
+    
+    @media screen and (max-width: 600px) { 
+      height: auto;
+    }
 }
 
 .sustainability{
@@ -470,19 +494,38 @@ text-align: left;
     display: flex;
     justify-content: space-between;
     margin-top:100px;
+    
+    @media screen and (max-width: 600px) { 
+      flex-wrap: wrap;
+      margin-top: 10px;
+      justify-content: center;
+      align-content: center;
+     
+    }
 }
 .sustainability-left{
     width: 30%;
     padding: 50px 50px 0px 50px;
-    /* border: 1px solid pink; */
+    
+    @media screen and (max-width: 600px) { 
+      padding: 0px;
+    }
 }
 .sustainability-left img{
     width: 100%;
     height: 100%;
+
+    
+    @media screen and (max-width: 600px) { 
+    }
 }
 .sustainability-right{
     position: relative;
     width: 70%;
+    
+    @media screen and (max-width: 600px) { 
+      width: auto;
+    }
     /* border: 1px solid red; */
    
 }
@@ -494,6 +537,15 @@ line-height: 100px;
 letter-spacing: 3px;
 text-align: left;
 text-transform: uppercase;
+
+
+@media screen and (max-width: 600px) { 
+  line-height: 35px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
 }
 .sustainability-right p{
     font-family: Jost;
@@ -503,6 +555,12 @@ font-weight: 400;
 line-height: 25.2px;
 text-align: left;
 margin-top: 20px;
+
+
+@media screen and (max-width: 600px) { 
+ line-height: normal;
+ padding-right: 0px;
+}
 }
 .collaborate{
     position: absolute;
@@ -515,6 +573,12 @@ margin-top: 20px;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
+    
+    @media screen and (max-width: 600px) { 
+      position:relative;
+      height: 50%;
+      /* margin-top: 1rem; */
+    }
 }
 .collaborate img{
     width: 25%;
@@ -564,6 +628,10 @@ margin-top: 20px;
     justify-content: space-between;
     /* border: 1px solid red; */
     color: #ffff;
+    
+    @media screen and (max-width: 600px) { 
+      padding: 10px;
+    }
 }
 
 .projects-grade-left{
@@ -575,7 +643,12 @@ margin-top: 20px;
     font-size: 46px;
     font-weight: 400;
     line-height: 85px;
-    text-align: left;    
+    text-align: left;
+    
+    
+    @media screen and (max-width: 600px) { 
+      font-size: 36px ;
+    }
 }
 .projects-grade-left .activeList{
   color: #fff;
@@ -591,6 +664,10 @@ margin-top: 20px;
 .projects-grade-right{
     width: 70%;
     padding-left: 30px;
+    
+    @media screen and (max-width: 600px) { 
+      padding-left: 10px;
+    }
     /* border: 1px solid green; */
 }
 .projects-grade-right h1{
