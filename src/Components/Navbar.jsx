@@ -1,8 +1,11 @@
 // import React from 'react'
-import { Link } from "react-router-dom";
-import "./Navbar.css";
-import  Logo  from '../assets/vaishnaviLogo.png'
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import Brochure from '../assets/VaishnaviConstructionsBrochure.pdf';
+import Logo from '../assets/vaishnaviLogo.png';
+import "./Navbar.css";
+
+
 const Navbar = () => {
 
   let [activeItem,setActiveItem]=useState('home')
@@ -41,8 +44,8 @@ const Navbar = () => {
               handleActiveNav('contact')
             }}>Contact Us</span></Link>
 
-           <a href="../assets/VaishnaviConstructionsBrochure.pdf" download='VaishnaviConstructionsBrochure.pdf'><button>Download Brochure</button></a>
-        </div>
+            <a  href={Brochure} target="_blank" rel="noopener noreferrer"><button>Download Brochure</button></a>
+            </div>
             <div className="nav-mobile-handle" onClick={handleMobileNav}>
               <i className="fa-solid fa-bars"></i>
             </div>
@@ -66,7 +69,7 @@ const Navbar = () => {
               handleActiveNav('contact')
             }}>Contact Us</span></Link>
 
-          <Link to="/brochure"><button>Download Brochure</button></Link>
+          <a  href={Brochure} target="_blank" rel="noopener noreferrer"><button>Download Brochure</button></a>
         </div>
         
       </div>
