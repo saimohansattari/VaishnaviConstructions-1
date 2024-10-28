@@ -16,7 +16,7 @@ function VaishnaviCrushers() {
     <>
     <HeroSection style={{height:'auto', padding:'10rem'}} bgImage={VC_hero} >
        <div style={{display:'flex', flexDirection:'column', gap:'2rem'}}>
-       <p >Crushing It with Precision and Power</p>
+       <p className='HeroText' >Crushing It with Precision and Power</p>
        <SmallText style={{color:'whitesmoke'}}>RMC‘s full form is Ready Mixed Concrete. It is manufactured in a batching plant or factory according to the standard specifications that are required. After being prepared it is delivered to the construction location in two different ways.  </SmallText>
        </div>
        <div>

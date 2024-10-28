@@ -16,6 +16,11 @@ gap: 1.5rem;
       
       width: auto;
   }
+
+  @media screen and (max-width: 600px) { 
+        padding: 1rem;
+        gap: 10px;
+      }
 `;
 
 
@@ -30,4 +35,8 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       
       width: auto;
   }
+
+  @media screen and (max-width: 600px) { 
+        width: 100%;
+      }
 `;

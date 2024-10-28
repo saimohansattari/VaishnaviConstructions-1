@@ -119,27 +119,27 @@ function Service() {
           <SmallText style={{color:'rgba(255, 255, 255, 0.822)'}}>RMC‘s full form is Ready Mixed Concrete. It is manufactured in a batching plant or factory according to the standard specifications that are required. After being prepared it is delivered to the construction location in two different ways. The first way is using in-transit mixers which deliver the concrete mixture in a plastic state to the location. The second way is by using volumetric concrete mixer which delivers the material in the dry state and mixes it on the site.</SmallText>
           
             <div className='listCard'>
-              <div style={{display:'flex', gap:'1rem', alignItems:'center'}}>
+              <div className='ListDotSection'>
                   <img src={Ok} alt="" style={{width:'20px', height:'20px'}}/>
-                  <SmallText style={{color:'rgba(255, 255, 255, 0.822)', fontSize:'1.5rem'}}>Customer Centricity</SmallText>
+                  <SmallText className='text'>Customer Centricity</SmallText>
                 </div>
 
-                <div style={{display:'flex', gap:'1rem', alignItems:'center'}}>
+                <div className='ListDotSection'>
                   <img src={Ok} alt="" style={{width:'20px', height:'20px'}}/>
-                  <SmallText style={{color:'rgba(255, 255, 255, 0.822)', fontSize:'1.5rem'}}>High Quality Specifications</SmallText>
+                  <SmallText className='text'>High Quality Specifications</SmallText>
                 </div>
             </div>
 
 
            <div className='listCard'>
-            <div style={{display:'flex', gap:'1rem', alignItems:'center'}}>
+            <div className='ListDotSection'>
               <img src={Ok} alt="" style={{width:'20px', height:'20px'}}/>
-              <SmallText style={{color:'rgba(255, 255, 255, 0.822)', fontSize:'1.5rem'}}>Transparent Communication with Stakeholders</SmallText>
+              <SmallText className='text'>Transparent Communication with Stakeholders</SmallText>
             </div>
 
-            <div style={{display:'flex', gap:'1rem', alignItems:'center'}}>
+            <div className='ListDotSection'>
               <img src={Ok} alt="" style={{width:'20px', height:'20px'}}/>
-              <SmallText style={{color:'rgba(255, 255, 255, 0.822)', fontSize:'1.5rem'}}>Environmental Sustainability</SmallText>
+              <SmallText className='text'>Environmental Sustainability</SmallText>
             </div>
             </div>
 

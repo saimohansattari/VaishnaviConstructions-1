@@ -7,7 +7,6 @@ export const HeroSection = styled.div`
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 35vh;
   display: flex;
   gap: 3rem;
   justify-content: space-around;
@@ -22,7 +21,11 @@ export const HeroSection = styled.div`
   @media screen and (max-width: 600px) {  
       justify-content: center;
       padding: 2rem !important;
+      height: auto;
+
   }
+
+ 
 `;
 
 
@@ -101,8 +104,9 @@ font-weight: 400;
 color: rgba(0, 0, 0, 1);
 
 @media screen and (max-width: 600px) { 
-        padding: 1rem;
+        padding: 0.5rem;
         text-align: center;
+        
       }
 `;
 
@@ -131,6 +135,13 @@ font-weight: 400;
 font-size: 1.6rem;
 border: none;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+      
+  @media screen and (max-width: 600px) { 
+      padding:0.5rem;
+      font-size: 1rem;
+  }
+
 `;
 
 export const WhiteDiv = styled.div`
@@ -236,6 +247,10 @@ export const SecondNavContent = styled.div`
 export const LightGreenSmallText = styled.p`
 color: rgba(255, 255, 0, 1);
 font-size: 1rem;
+@media screen and (max-width: 600px) {
+    margin-top: 0.7rem;
+  }
+
 
 `;
 
@@ -258,6 +273,11 @@ export const LocationCard = styled.div`
   display: flex;
   flex-direction: column;
   gap: 2.5rem;
+  @media screen and (max-width: 600px) {
+  gap: 0.5rem;
+  padding: 0.5rem;
+}
+
 `;
 
 export const GallerySection = styled.div`
@@ -289,7 +309,17 @@ height: 6rem;
 bottom: 1rem;
 right: 4rem;
 position: absolute;
+
+@media screen and (max-width: 600px) {  
+  width: 4rem;
+height: 4rem;
+bottom: 0.5rem;
+right: 0.5rem;
+
+  }
 `
+
+
 
 
 
