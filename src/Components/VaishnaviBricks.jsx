@@ -1,10 +1,10 @@
 import React from 'react'
-import DarkMap from '../assets/DarkMap.png'
 import VB_hero from '../assets/ServiceAsserts/VBricks/VB_hero.png'
 import VBG1 from '../assets/ServiceAsserts/VBricks/VBG1.png'
 import VBG2 from '../assets/ServiceAsserts/VBricks/VBG2.png'
 import VBG3 from '../assets/ServiceAsserts/VBricks/VBG3.png'
 import VBricks from '../assets/ServiceAsserts/VBricks/VBricks.png'
+import VBricksMap from '../assets/ServiceAsserts/VBricks/VBricksMap.png'
 import whatsappImg from '../assets/whatsappImg.png'
 import { FormComponent, InputComponent } from './Form'
 import { ContentIntro, ExtraSmallText, GalleryImg, GallerySection, HeroSection, LocationCard, SmallText, TheameBtn, TheameLargeText, WhatsappIcon, WhiteDiv, XlText } from './styledComponents'
@@ -99,7 +99,7 @@ function VaishnaviBricks() {
                 </div>
                 <TheameBtn style={{width:'100%', borderRadius:"5px"}}>Get In Touch</TheameBtn>
                 </LocationCard>
-            <img src={DarkMap} className='LocationMap'/>
+            <img src={VBricksMap} className='LocationMap'/>
         </div>
 
 

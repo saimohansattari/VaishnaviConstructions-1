@@ -1,15 +1,14 @@
 import React from 'react'
-import DarkMap from '../assets/DarkMap.png'
 import LightMap from '../assets/LightMap.png'
 import G1 from '../assets/ServiceAsserts/RMCImgs/G1.png'
 import G2 from '../assets/ServiceAsserts/RMCImgs/G2.png'
 import G3 from '../assets/ServiceAsserts/RMCImgs/G3.png'
 import RMC_hero from '../assets/ServiceAsserts/RMCImgs/RMC_hero.png'
+import RMCMap from '../assets/ServiceAsserts/RMCImgs/RMCMap.png'
 import RMCTrucks from '../assets/ServiceAsserts/RMCImgs/RMCTrucks.png'
 import whatsappImg from '../assets/whatsappImg.png'
 import { FormComponent, InputComponent } from './Form'
 import { ContentIntro, ExtraSmallText, GalleryImg, GallerySection, HeroSection, LocationCard, SmallText, TheameBtn, TheameLargeText, WhatsappIcon, WhiteDiv, XlText } from './styledComponents'
-
 
 function VaishnaviRMC() {
 
@@ -99,7 +98,7 @@ function VaishnaviRMC() {
                 </div>
                 <TheameBtn style={{width:'100%', borderRadius:"5px"}}>Get In Touch</TheameBtn>
                 </LocationCard>
-            <img src={DarkMap} className='LocationMap'/>
+            <img src={RMCMap} className='LocationMap'/>
         </div>
 
 

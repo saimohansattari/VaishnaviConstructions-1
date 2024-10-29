@@ -1,9 +1,9 @@
 import React from 'react'
-import LightMap from '../assets/LightMap.png'
 import VC_hero from '../assets/ServiceAsserts/VCrushers/VC_hero.png'
 import VCG1 from '../assets/ServiceAsserts/VCrushers/VCG1.png'
 import VCG2 from '../assets/ServiceAsserts/VCrushers/VCG2.png'
 import VCG3 from '../assets/ServiceAsserts/VCrushers/VCG3.png'
+import VChrushersMap from '../assets/ServiceAsserts/VCrushers/VChrushersMap.png'
 import vCImg from '../assets/ServiceAsserts/VCrushers/VCImg.png'
 import whatsappImg from '../assets/whatsappImg.png'
 import { FormComponent, InputComponent } from './Form'
@@ -98,7 +98,7 @@ function VaishnaviCrushers() {
                 </div>
                 <TheameBtn style={{width:'100%', borderRadius:"5px"}}>Get In Touch</TheameBtn>
                 </LocationCard>
-            <img src={LightMap} className='LocationMap'/>
+            <img src={VChrushersMap} className='LocationMap'/>
         </div>
 
 

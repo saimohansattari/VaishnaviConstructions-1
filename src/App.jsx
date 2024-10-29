@@ -6,6 +6,7 @@ import Home from './Components/Home'
 import Media from './Components/Media'
 import MrkBricks from './Components/MrkBricks'
 import Navbar from './Components/Navbar'
+import ScrollToTop from './Components/ScroolToTop'
 import Services from './Components/Services'
 import VaishnaviBricks from './Components/VaishnaviBricks'
 import VaishnaviCrushers from './Components/VaishnaviCrushers'
@@ -25,6 +26,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
+    <ScrollToTop />
     <Navbar/>
     <Routes>
     <Route path='/' element={<Home/>}>
