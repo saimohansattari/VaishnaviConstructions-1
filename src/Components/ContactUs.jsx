@@ -5,7 +5,7 @@ import Map from "../assets/contactMap.png";
 import location from "../assets/location.png";
 import emailjs from "@emailjs/browser";
 import { Toaster, toast } from "sonner";
-import { object, string, number } from "yup";
+import { object, string } from "yup";
 
 const ContactUs = () => {
   const form = useRef();
